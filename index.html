@@ -36,7 +36,7 @@
     <section id="scene-cover" class="scene scene-cover" style="display:flex;">
       <div class="icon-badge">💌</div>
       <h1 class="script-heading">Sepucuk surat untuk</h1>
-      <p id="coverName" class="script-name">Putri</p>
+      <p id="coverName" class="script-name">Nadia</p>
       <p class="muted-text">Buka kalau kamu siap baca sesuatu yang sudah aku tulis khusus buat kamu.</p>
       <button id="btnOpenLetter" type="button" class="btn btn-primary">Buka Surat</button>
     </section>
@@ -67,9 +67,9 @@
     <!-- SCENE 3: LETTER -->
     <section id="scene-letter" class="scene scene-letter" style="display:none;">
       <div class="letter-card">
-        <p id="letterGreeting" class="letter-greeting">Untuk Putri,</p>
+        <p id="letterGreeting" class="letter-greeting">Untuk Nadia,</p>
         <div id="letterBody" class="letter-body"></div>
-        <p id="letterSignature" class="letter-signature">— Webcode</p>
+        <p id="letterSignature" class="letter-signature">— Desta</p>
       </div>
       <button id="btnAfterLetter" type="button" class="btn btn-primary">Lanjutkan</button>
     </section>
@@ -77,7 +77,7 @@
     <!-- SCENE 4: PROPOSAL -->
     <section id="scene-proposal" class="scene scene-proposal" style="display:none;">
       <p class="proposal-quote">
-        "Will you be my <span class="text-accent">girlfriend</span>, <span id="proposalName">Putri</span>?"
+        "Will you be my <span class="text-accent">girlfriend</span>, <span id="proposalName">Nadia</span>?"
       </p>
       <p id="dodgeCaption" class="dodge-caption"></p>
       <div id="buttonStage" class="button-stage">
@@ -92,7 +92,6 @@
       <h2 class="celebrate-title">Yeay!</h2>
       <p id="celebrateText" class="celebrate-text"></p>
       <p id="celebrateSub" class="muted-text"></p>
-      <button id="btnRestart" type="button" class="btn btn-secondary">Ulangi dari awal</button>
     </section>
 
   </main>
@@ -104,13 +103,15 @@
   // GANTI BAGIAN INI SESUAI KEINGINAN KAMU
   // ====================================================
   const CONFIG = {
-    recipientName: "Free Fire",       // nama orang yang dikirimi surat
-    senderName: "Abang jawa",        // nama kamu
-    pin: "180765",                 // PIN rahasia (boleh 4-6 digit angka)
+    recipientName: "Nadia Zara Hasnah",       // nama orang yang dikirimi surat
+    senderName: "Desta",        // nama kamu
+    pin: "170509",                 // PIN rahasia (boleh 4-6 digit angka)
     letterParagraphs: [
       "Mungkin selama ini aku belum pernah benar-benar bilang ini secara langsung, tapi entah kenapa lewat tulisan rasanya lebih mudah.",
-      "Setiap kali main game FF, walau cuma soal Turnamen, selalu ada rasa nyaman yang susah aku jelasin. Makanya aku memberanikan diri buat bikin halaman kecil ini, khusus untuk kamu Free Fire ku.",
-      "Aku nggak butuh jawaban yang sempurna, aku cuma mau FF tahu apa yang aku rasain selama ini."
+      "Setiap kali ngobrol bareng kamu, walau cuma soal hal-hal kecil, selalu ada rasa nyaman yang susah aku jelasin. Makanya aku memberanikan diri buat bikin halaman kecil ini, khusus untuk kamu Nadia.",
+      "Aku nggak butuh jawaban yang sempurna, aku cuma mau kamu tahu apa yang aku rasain selama ini.",
+      "Mungkin aku udah telat nyampein ini, tapi kamu orang yang aku sayang. Selama ini perasaan aku ke kamu ga pernah cuma dianggap biasa aja. Mungkin aku emang ga selalu bisa nunjukin atau nyampeinnya dengan cara yang kamu butuhin, tapi bukan berarti kamu ga berarti buat aku.",
+      "Makasi juga selama ini nemenin aku, selalu ada buat aku, selalu sabar ngadepin aku dan selalu berusaha ngertiin aku. Mungkin aku ga sering bilang, tapi aku bener-bener menghargai semua yang udah kamu kasih ke aku."
     ],
   };
   // ====================================================
@@ -204,9 +205,9 @@
   const captions = [
     "Yakin nih jawabannya?",
     "Coba lagi deh~",
-    "Masa ga sayang sama FF?",
-    "FF di hati loh",
-    "Atau kamu lebih milih Adji? 🥹"
+    "Gak bisa kabur terus lohh",
+    "Sebenernya jawabannya cuma satu kok",
+    "Udah, bilang Yes aja 🥹"
   ];
   let dodgeCount = 0;
 
