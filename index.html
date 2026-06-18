@@ -67,7 +67,7 @@
     <!-- SCENE 3: LETTER -->
     <section id="scene-letter" class="scene scene-letter" style="display:none;">
       <div class="letter-card">
-        <p id="letterGreeting" class="letter-greeting">Untuk Nadia,</p>
+        <p id="letterGreeting" class="letter-greeting">Untuk Nadia Zara Hasanah,</p>
         <div id="letterBody" class="letter-body"></div>
         <p id="letterSignature" class="letter-signature">— Desta</p>
       </div>
@@ -103,7 +103,7 @@
   // GANTI BAGIAN INI SESUAI KEINGINAN KAMU
   // ====================================================
   const CONFIG = {
-    recipientName: "Nadia Zara Hasnah",       // nama orang yang dikirimi surat
+    recipientName: "Nadia Zara Hasanah",       // nama orang yang dikirimi surat
     senderName: "Desta",        // nama kamu
     pin: "170509",                 // PIN rahasia (boleh 4-6 digit angka)
     letterParagraphs: [
@@ -184,7 +184,7 @@
           pinBadge.classList.add('is-success');
           setTimeout(() => goTo('scene-letter'), 450);
         } else {
-          pinErrorEl.textContent = 'PIN salah, PIN nya adalah PIN tablet gue';
+          pinErrorEl.textContent = 'PIN salah, PIN nya tanggal lahir kamu lohhh';
           pinDotsEl.classList.add('shake');
           setTimeout(() => {
             pinInput = '';
